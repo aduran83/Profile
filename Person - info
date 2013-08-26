@@ -1,0 +1,97 @@
+import java.util.Scanner;
+
+class Individual {
+	
+	String name;
+	int age;
+	String gender;
+	String address;
+	String email;
+	
+	
+	void speak1 (){
+		System.out.println("My name is: " + name);
+	}
+	
+	void speak2 (){
+		System.out.println("I'm " + age + "  years old");
+	}
+	
+	void speak3 (){
+		System.out.println("Gender: " + gender);
+
+		}
+		
+	void speak4 (){
+		System.out.println("Adress: " + address);
+		}
+
+	void speak5(){
+		System.out.println("Email: " + email);
+	}
+	
+}
+
+
+public class AppGetterReturnValues {
+
+	public static void main(String[] args) {
+		
+	Scanner input = new Scanner(System.in);
+	
+	System.out.println("My Birth Date is:");
+	
+	 String value;
+	(value) = input.nextLine(); // needing to set if or else for correct birth date
+
+
+	Individual individual1 = new Individual();
+	
+	individual1.name = "Peter Griffin";
+	individual1.age = 30;
+	individual1.gender = "Male";
+	individual1.address = "111 Easy St. Omaha, NE 68154";
+	individual1.email = "aeduran22@hotmail.com";
+	
+	String dateofbirth = ("03/10/80");
+	
+	if(dateofbirth.equals(dateofbirth)){
+	
+	individual1.speak1();
+	individual1.speak2();
+	individual1.speak3();
+	individual1.speak4();
+	individual1.speak5();
+	
+	}
+	
+	else{
+		System.out.println("Please try again!");
+	}
+	}
+	
+	
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+
+	
+	
+	
+	
+		
+
+
+
+
